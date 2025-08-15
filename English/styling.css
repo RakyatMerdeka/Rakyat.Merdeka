@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+
+body
+{
+    background-image: url(Images/BG.png);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+
+}
+
+body .Banner img
+{
+  margin: 0;
+  display: block;
+
+}
+
+
+div nav 
+{
+    background-color: rgb(187, 187, 187);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0;
+}
+
+div nav ul
+{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+}
+
+div nav ul li a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(65, 64, 64);
+    font-weight: bold;
+}
+
+.NavBar {
+    margin: 0;
+    padding: 0;
+  }
+
+.content-box 
+{
+    background-color: white;
+    width: 200%;     
+    height: 597px;        /* adjust size */
+    max-width: 800px;       /* prevent it from getting too wide */
+    margin: 0rem auto;      /* center horizontally + add vertical space */
+    padding: 1.5rem;        /* inner spacing */
+    border-radius: 5px;    /* rounded corners */
+    font-family: Arial, sans-serif;
+    overflow-y: auto;        /* enable vertical scroll inside */
+    overflow-x: hidden;
+}

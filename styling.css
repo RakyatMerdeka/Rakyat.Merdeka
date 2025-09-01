@@ -48,7 +48,7 @@ div nav ul
 { display: flex; 
   flex-wrap: wrap;
   list-style: none; 
-  gap: 1rem; 
+  gap: 0.5rem; 
   align-items: center; 
 } 
 div nav ul li a 
@@ -78,4 +78,5 @@ div nav ul li a
     overflow-x: hidden;
     
 }
+
 

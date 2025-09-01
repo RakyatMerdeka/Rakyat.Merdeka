@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: visible;
     
     
   }
@@ -68,16 +68,17 @@ div nav ul li a
 {
     background-color: rgb(255, 255, 255);
         
-    height: 500px;        /* adjust size */
+    height: auto;        /* adjust size */
     max-width: 95%;       /* prevent it from getting too wide */
     margin: 0rem auto;      /* center horizontally + add vertical space */
     padding: 1.5rem;        /* inner spacing */
        /* rounded corners */
     font-family: 'Times New Roman', Times, serif;
-    overflow-y: auto;        /* enable vertical scroll inside */
-    overflow-x: hidden;
+    overflow: visible;        /* enable vertical scroll inside */
+    
     
 }
+
 
 
 

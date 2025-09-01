@@ -3,14 +3,21 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: hidden;
+    
+    
   }
 
 
 body
 {
-    background-image: url(Images/BG.png);
+    margin-left: 150px;
+    background-color: rgb(163, 163, 163);
     background-size: 1500px;
     background-repeat: no-repeat;
+    max-width: 1000px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    
 
 }
 
@@ -21,47 +28,46 @@ body .Banner img
 
 }
 
-
 div nav 
-{
-    background-color: rgb(187, 187, 187);
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    margin: 0;
-}
+{ 
+  background-image: url('Images/NavBar.png'); 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 1rem; margin: 0; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); 
+  
+} 
 
-div nav ul
-{
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    align-items: center;
+div nav ul 
+{ display: flex; 
+  list-style: none; 
+  gap: 1rem; 
+  align-items: center; 
+} 
+div nav ul li a 
+{ 
+  text-decoration: none; 
+  font-family: 'Times New Roman', Times, serif; 
+  color:rgb(65, 64, 64); font-weight: bold; 
+} 
+.NavBar 
+{ 
+  margin: 0; 
+  padding: 0; 
+  
 }
-
-div nav ul li a
-{
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgb(65, 64, 64);
-    font-weight: bold;
-}
-
-.NavBar {
-    margin: 0;
-    padding: 0;
-  }
 
 .content-box 
 {
-    background-color: white;
-    width: 200%;     
-    height: 597px;        /* adjust size */
-    max-width: 800px;       /* prevent it from getting too wide */
+    background-color: rgb(255, 255, 255);
+        
+    height: 500px;        /* adjust size */
+    max-width: 1000px;       /* prevent it from getting too wide */
     margin: 0rem auto;      /* center horizontally + add vertical space */
     padding: 1.5rem;        /* inner spacing */
-    border-radius: 5px;    /* rounded corners */
-    font-family: Arial, sans-serif;
+       /* rounded corners */
+    font-family: 'Times New Roman', Times, serif;
     overflow-y: auto;        /* enable vertical scroll inside */
     overflow-x: hidden;
+    
 }

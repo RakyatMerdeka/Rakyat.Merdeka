@@ -41,6 +41,8 @@ div nav
   justify-content: space-between; 
   padding: 2%; margin: 0; 
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 1); 
+  background-size: cover; /* stretches to cover the entire container */
+  background-position: center;
   
 } 
 
@@ -79,6 +81,7 @@ div nav ul li a
     
     
 }
+
 
 
 
